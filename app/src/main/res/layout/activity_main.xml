@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="toong.vn.androidfont.MainActivity"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="声をかけられたかも…"
+        android:textSize="30sp"
+        android:fontFamily="@font/app_fonts"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="声をかけられたかも…"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/app_fonts"
+            android:text="問"
+            android:textSize="100sp"
+            android:textStyle="bold"
+            android:textColor="#f00"
+            android:includeFontPadding="false"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="問"
+            android:textSize="100sp"
+            android:textColor="#00f"
+            android:textStyle="bold"
+            android:includeFontPadding="false"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="問題が発生しました。"
+        android:textSize="30sp"
+        android:includeFontPadding="false"
+        android:fontFamily="@font/app_fonts"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="問題が発生しました。"
+        android:textSize="30sp"
+        android:includeFontPadding="false"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A"
+        android:textSize="100sp"
+        android:includeFontPadding="false"
+        />
+
+</LinearLayout>
